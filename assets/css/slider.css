@@ -1,0 +1,50 @@
+#slider{
+    background-color: var(--bg-slider);
+    height: 550px;
+    position: relative;
+}
+#slider .row-slider{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    height: 100%;
+}
+#slider .row-slider .col-left{
+    flex: 2;
+    position: relative;
+}
+.col-right{
+    flex: 1;
+}
+.col-right img{
+    object-fit: cover;
+    position: absolute;
+    width: 550px;
+}
+.purple{
+    background-color: #c280d2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 250px;
+    top: 70px;
+}
+.green{
+    background-color: #43b97f;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 65px;
+    left: 240px;
+}
+.orange{
+    background-color: #e55c48;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    bottom: 95px;
+}
