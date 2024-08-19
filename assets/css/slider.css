@@ -13,7 +13,7 @@
     flex: 2;
     position: relative;
 }
-.col-right{
+#slider .row-slider .col-right{
     flex: 1;
 }
 .col-right img{
@@ -21,7 +21,7 @@
     position: absolute;
     width: 550px;
 }
-.purple{
+#slider .row-slider .col-left .purple{
     background-color: #c280d2;
     width: 35px;
     height: 35px;
@@ -30,7 +30,7 @@
     right: 250px;
     top: 70px;
 }
-.green{
+#slider .row-slider .col-left .green{
     background-color: #43b97f;
     width: 20px;
     height: 20px;
@@ -39,7 +39,7 @@
     bottom: 65px;
     left: 240px;
 }
-.orange{
+#slider .row-slider .col-left .orange{
     background-color: #e55c48;
     width: 20px;
     height: 20px;
@@ -47,4 +47,53 @@
     position: absolute;
     left: 80px;
     bottom: 95px;
+}
+
+#slider .row-slider .col-left .box-title-banner{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    margin-top: 100px;
+}
+#slider .row-slider .col-left .box-title-banner .title-small{
+    color: var(--text-color-p);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#slider .row-slider .col-left .box-title-banner .title-main{
+   font-size: 72px; 
+   line-height: 1.2;
+   padding-bottom: 40px;
+   margin-bottom: 45px;
+   font-weight: 600;
+}
+#slider .row-slider .col-left .box-title-banner .btn-banner{
+    display: inline;
+    background-color: var(--btn-primary);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: var(--fw-a);
+    color: #fff;
+    padding: 20px 36px;
+    border-radius: 50px;
+}
+
+.dot-slider{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dot-slider .dot{
+    height: 4px;
+    width: 70px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.06);
+}
+.dot-slider .active{
+    background-color: #333;
 }

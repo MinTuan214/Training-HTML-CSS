@@ -1,6 +1,8 @@
 :root{
     --text-color-a: rgb(51 65 85);
     --fw-a: 500;
-    --fs-a: 16px;
+    --fs-a: 15px;
     --bg-slider: #e3ffe6;
+    --text-color-p: #020202;
+    --btn-primary: #0f172a;
 }
