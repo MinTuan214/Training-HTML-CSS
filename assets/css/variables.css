@@ -1,8 +1,36 @@
 :root{
+    /* a 15*/
     --text-color-a: rgb(51 65 85);
     --fw-a: 500;
     --fs-a: 15px;
+    /* a 14 */
+    --fs-a-14: 14px;
+    --text-color-a14: #475569;
+
+    --fs-icon: 12px;
+    --color-icon: #94a3b8;
+    /* bg */
+    --bg-hover-btn-primary: #1b2338;
+    --bg-hover: rgb(241 245 249);
     --bg-slider: #e3ffe6;
+    --bg-nav: #fff;
+    --bg-hover-btn: #f3f4f6;
+    --bg-vc-first: #fefce8;
+    --bg-vc-second: #fef2f2;
+    --bg-vc-third: #eff6ff;
+    --bg-vc-fourth: #f0fdf4;
+    --bg-product: #f8fafc;
+    /* p */
     --text-color-p: #020202;
+    /* btn */
     --btn-primary: #0f172a;
+
+    /* h2 */
+    --color-h2: #111827;
+    --color-blur-h2: #6b7280;
+    --fw-h2: 600;
+    --fs-h2: 36px;
+
+    --bd-price: #22c55e;
+    --bd-checked: #333;
 }

@@ -1,5 +1,7 @@
 #header {
     border-bottom: 1px solid #f1f1f1;
+    position: relative;
+
 }
 
 #nav {
@@ -7,8 +9,8 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    line-height: 80px;
 }
+
 
 /* right */
 .logo {
@@ -30,11 +32,21 @@
     justify-content: space-between;
 }
 
-.navigation .sub-menu li {
+.navigation .sub-menu li{
     list-style: none;
 }
 
-.navigation .sub-menu li a {
+.navigation .sub-menu li a i{
+    color: var(--color-icon);
+    font-size: var(--fs-icon);
+}
+
+.navigation .sub-menu .sub-menu-a{
+    list-style: none;
+    line-height: 80px;
+}
+
+.navigation .sub-menu li a.sub-menu-a {
     text-decoration: none;
     color: var(--text-color-a);
     font-weight: var(--fw-a);
@@ -44,15 +56,16 @@
     padding: 10px 20px;
 }
 
-.navigation .sub-menu li a:hover {
-    background-color: rgb(241 245 249);
+.navigation .sub-menu li a.sub-menu-a:hover {
+    background-color: var(--bg-hover);
     border-radius: 25px;
 }
-
-.box-children-menu {
-    background-color: #fff;
+.box-children-menu{
+    position: absolute;
+    background-color: var(--bg-nav);
     width: 100%;
-    font-size: 14px;
+    z-index: 2;
+    left: 0;
     display: none;
 }
 .navigation .sub-menu li.hover-template:hover .box-children-menu{
@@ -62,10 +75,9 @@
     max-width: 1280px;
     border-top: 1px solid #eee;
     margin: auto;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 43px;
+    padding-bottom: 43px;
     display: flex;
-    
 }
 
 .box-children-menu .children-menu .children-left {
@@ -76,17 +88,15 @@
 
 .box-children-menu .children-menu 
 .children-left ul li {
-    line-height: 2.4;
+    line-height: 2.2;
     list-style: none;
 }
 
-.box-children-menu .children-menu .children-right {
-    flex: 1;
-}
 .box-children-menu .children-menu 
 .children-left ul li a{
     text-decoration: none;
-    color: #475569;
+    color: var(--text-color-a14);
+    font-size: 14px;
 }
 .box-children-menu .children-menu 
 .children-left ul .title-info{
@@ -94,41 +104,70 @@
     font-weight: var(--fw-a);
     font-size: var(--fs-a);
 }
+
 .box-children-menu .children-menu 
-.children-right .image-info{
+.children-left ul li a:hover{
+    color: var(--text-color-a);
+}
+
+.box-children-menu .children-menu .children-right {
+    flex: 1;
     background-color: #eff6ff;
-    margin-top: 10px;
-    border-radius: 20px;
     width: 100%;
-    height: 85%;
+    height: 100%;
     display: flex;
     padding: 30px 30px;
-    transition: all .1s linear;
-    cursor: pointer;
+    border-radius: 15px;
+    transition: all .1s ease-in-out;
 }
-.box-children-menu .children-menu 
-.children-right .image-info:hover{
-    background-color: #e6ecf5;
+
+.box-children-menu .children-menu .children-right:hover{
+    background-color: var(--bg-hover);
 }
-.box-children-menu .children-menu .children-right 
-.image-info .box-image-info-left{
+
+.box-children-menu .children-menu .children-right .box-children-right{
     flex: 1;
 }
+
 .box-children-menu .children-menu .children-right 
-.image-info .box-image-info-left .btn-show-info{
+.box-children-right .title-box-children-right{
+    color: var(--text-color-a14);
+    font-size: var(--fs-a-14);
+    margin-bottom: 8px;
+}
+
+.box-children-menu .children-menu .children-right 
+.box-children-right .title-main-box-children-right{
+    font-weight: var(--fw-h2);
+}
+
+.box-children-menu .children-menu .children-right .box-children-right 
+.btn-box-children-right{
     background-color: #fff;
-    text-decoration: none;
-    margin-top: 30px;
-    padding: 15px 30px;
     display: inline-block;
-    border-radius: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
     color: var(--text-color-a);
     font-weight: var(--fw-a);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: var(--fs-a-14);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 40px;
+    transition: all .1s ease-in-out;
 }
-.box-children-menu .children-menu .children-right 
-.image-info .box-image-info-right img{
-    width: 150px;
+
+.box-children-menu .children-menu .children-right .box-children-right 
+.btn-box-children-right:hover{
+    background-color: var(--bg-hover-btn);
+}
+
+.box-children-menu .children-menu .children-right .box-children-left{
+    flex: 1;
+}
+
+.box-children-menu .children-menu 
+.children-right .box-children-left img{
+    width: 85%;
 }
 
 /* left */
@@ -146,6 +185,6 @@
 }
 
 .flex-icons i:hover {
-    background-color: rgb(241 245 249);
+    background-color: var(--bg-hover);
     border-radius: 50%;
 }

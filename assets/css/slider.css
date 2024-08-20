@@ -2,6 +2,7 @@
     background-color: var(--bg-slider);
     height: 550px;
     position: relative;
+    margin-bottom: 40px;
 }
 #slider .row-slider{
     display: flex;
@@ -20,6 +21,7 @@
     object-fit: cover;
     position: absolute;
     width: 550px;
+    right: 8px;
 }
 #slider .row-slider .col-left .purple{
     background-color: #c280d2;
@@ -65,7 +67,7 @@
    font-size: 72px; 
    line-height: 1.2;
    padding-bottom: 40px;
-   margin-bottom: 45px;
+   margin-bottom: 30px;
    font-weight: 600;
 }
 #slider .row-slider .col-left .box-title-banner .btn-banner{
@@ -77,6 +79,11 @@
     color: #fff;
     padding: 20px 36px;
     border-radius: 50px;
+}
+
+#slider .row-slider .col-left .box-title-banner .btn-banner:hover{
+    background-color: var(--bg-hover-btn-primary);
+    
 }
 
 .dot-slider{
