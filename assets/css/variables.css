@@ -1,15 +1,32 @@
 :root{
-    /* a 15*/
-    --text-color-a: rgb(51 65 85);
-    --fw-a: 500;
     --fs-a: 15px;
-    /* a 14 */
     --fs-a-14: 14px;
-    --text-color-a14: #475569;
-
+    --fs-h2: 36px;
     --fs-icon: 12px;
+    --fs-type: 14px;
+    --fs-check: 12px;
+    --fs-step: 12px;
+    --fs-p: 16px;
+
+    --text-color-a: rgb(51 65 85);
+    --text-btn: #fff;
+    --text-color-a14: #475569;
+    --text-color-p: #020202;
+    --btn-primary: #0f172a;
+    --color-h2: #111827;
+    --color-blur-h2: #6b7280;
     --color-icon: #94a3b8;
-    /* bg */
+    --text-color-hover: #fff;
+    --color-icons: #fbbf24;
+    --color-step-red: #991b1b;
+    --color-step-blue: #3730a3;
+    --color-step-yellow: #854d0e;
+    --color-step-purple: #6b21a8;
+
+    --fw-h2: 600;
+    --fw-a: 500;
+    --fw-p: 600;
+    
     --bg-hover-btn-primary: #1b2338;
     --bg-hover: rgb(241 245 249);
     --bg-slider: #e3ffe6;
@@ -20,17 +37,21 @@
     --bg-vc-third: #eff6ff;
     --bg-vc-fourth: #f0fdf4;
     --bg-product: #f8fafc;
-    /* p */
-    --text-color-p: #020202;
-    /* btn */
-    --btn-primary: #0f172a;
-
-    /* h2 */
-    --color-h2: #111827;
-    --color-blur-h2: #6b7280;
-    --fw-h2: 600;
-    --fs-h2: 36px;
+    --bg-type: #fff;
+    --bg-hover-type: #333;
+    --bg-hover-check: #dfe0e2;
+    --bg-step-red: #fee2e2;
+    --bg-step-blue: #e0e7ff;
+    --bg-step-yellow: #fef9c3;
+    --bg-step-purple: #f3e8ff;
 
     --bd-price: #22c55e;
     --bd-checked: #333;
+    --bd-hr: #e2e8f0;
+
+    --choose-purple: #a78bfa;
+    --choose-yellow: #facc15;
+    --choose-orange: #fb923c;
+    --choose-blue: #38bdf8;
+    --choose-green: #4ade80;
 }

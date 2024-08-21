@@ -7,4 +7,9 @@
 body{
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+#content{
+    max-width: 1280px;
+    margin: 0 auto;
 }
