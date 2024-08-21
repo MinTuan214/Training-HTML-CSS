@@ -1,12 +1,14 @@
 :root{
     --fs-a: 15px;
     --fs-a-14: 14px;
-    --fs-h2: 36px;
+    --fs-h2: 34px;
     --fs-icon: 12px;
     --fs-type: 14px;
     --fs-check: 12px;
     --fs-step: 12px;
     --fs-p: 16px;
+    --fs-h2-title: 48px;
+    --fs-quantity: 12px;
 
     --text-color-a: rgb(51 65 85);
     --text-btn: #fff;
@@ -44,9 +46,14 @@
     --bg-step-blue: #e0e7ff;
     --bg-step-yellow: #fef9c3;
     --bg-step-purple: #f3e8ff;
+    --bg-category: #f7f7f9;
+    --bg-nav-category: #fff;
+    --bg-list-category: #333;
+    --bg-img: #eef2ff;
 
     --bd-price: #22c55e;
     --bd-checked: #333;
+    --bd-btn: #f3f4f6;
     --bd-hr: #e2e8f0;
 
     --choose-purple: #a78bfa;
