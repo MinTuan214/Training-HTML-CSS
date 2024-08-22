@@ -12,6 +12,7 @@
     --fs-h2-pro: 23px;
     --fs-h2-cate: 34px;
     --fs-a-cate: 17px;
+    --fs-p-title: 18px;
 
     --text-color-a: rgb(51 65 85);
     --text-btn: #fff;
@@ -26,9 +27,9 @@
     --color-step-blue: #3730a3;
     --color-step-yellow: #854d0e;
     --color-step-purple: #6b21a8;
-
-    --btn-primary: #0f172a;
     --btn-text: #fff;
+    --btn-primary: #0f172a;
+
     --fw-h2: 600;
     --fw-a: 500;
     --fw-p: 600;
@@ -69,6 +70,7 @@
     --bd-checked: #333;
     --bd-btn: #f3f4f6;
     --bd-hr: #e2e8f0;
+    --bd-active: #0ea5e9;
 
     --choose-purple: #a78bfa;
     --choose-yellow: #facc15;

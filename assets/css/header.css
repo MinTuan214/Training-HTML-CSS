@@ -173,15 +173,33 @@
 .flex-icons {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex: 1;
 }
-
-.flex-icons i{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 15px 15px;
-    font-size: 20px;
+.flex-icons svg{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
 }
+
+.flex-icons .cart{
+    position: relative;
+}
+
+.flex-icons .cart .total{
+    background-color: var(--choose-blue);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    font-size: 11px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    top: -7px;
+    right: 5px;
+}
+
 
 .flex-icons i:hover {
     background-color: var(--bg-hover);

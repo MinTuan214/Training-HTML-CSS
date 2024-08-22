@@ -170,8 +170,6 @@
 .carousel-products .box-carousel-product{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-
 }
 
 .carousel-products .box-carousel-product .box-title{
@@ -243,8 +241,10 @@
 }
 
 .product-detail .display-image:hover .box{
+    display: flex;
     opacity: 1;
     transform: translateX(0);
+    flex-wrap: wrap;
 }
 
 .product-detail .display-image .choose-type .box .box-type{
