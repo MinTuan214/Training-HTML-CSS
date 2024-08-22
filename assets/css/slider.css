@@ -24,7 +24,7 @@
     right: 8px;
 }
 #slider .row-slider .col-left .purple{
-    background-color: #c280d2;
+    background-color: var(--bg-circle-purple);
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -33,7 +33,7 @@
     top: 70px;
 }
 #slider .row-slider .col-left .green{
-    background-color: #43b97f;
+    background-color: var(--bg-circle-green);
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -42,7 +42,7 @@
     left: 240px;
 }
 #slider .row-slider .col-left .orange{
-    background-color: #e55c48;
+    background-color: var(--bg-circle-orange);
     width: 20px;
     height: 20px;
     border-radius: 50%;

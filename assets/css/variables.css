@@ -1,7 +1,7 @@
 :root{
     --fs-a: 15px;
     --fs-a-14: 14px;
-    --fs-h2: 34px;
+    --fs-h2: 36px;
     --fs-icon: 12px;
     --fs-type: 14px;
     --fs-check: 12px;
@@ -9,12 +9,14 @@
     --fs-p: 16px;
     --fs-h2-title: 48px;
     --fs-quantity: 12px;
+    --fs-h2-pro: 23px;
+    --fs-h2-cate: 34px;
+    --fs-a-cate: 17px;
 
     --text-color-a: rgb(51 65 85);
     --text-btn: #fff;
     --text-color-a14: #475569;
     --text-color-p: #020202;
-    --btn-primary: #0f172a;
     --color-h2: #111827;
     --color-blur-h2: #6b7280;
     --color-icon: #94a3b8;
@@ -25,6 +27,8 @@
     --color-step-yellow: #854d0e;
     --color-step-purple: #6b21a8;
 
+    --btn-primary: #0f172a;
+    --btn-text: #fff;
     --fw-h2: 600;
     --fw-a: 500;
     --fw-p: 600;
@@ -50,6 +54,16 @@
     --bg-nav-category: #fff;
     --bg-list-category: #333;
     --bg-img: #eef2ff;
+    --bg-banner2: #fefce8;
+    --bg-banner3: #f8fafc;
+    --bg-depart1: #e0e7ff;
+    --bg-depart2: #f1f5f9;
+    --bg-depart3: #e0f2fe;
+    --bg-depart4: #ffedd5;
+    --bg-circle-purple: #c280d2;
+    --bg-circle-green: #43b97f;
+    --bg-circle-yellow: #ffb951;
+    --bg-circle-orange: #ff6650;
 
     --bd-price: #22c55e;
     --bd-checked: #333;

@@ -1,0 +1,195 @@
+#content-second{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner-second{
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    background-color: var(--bg-banner2);
+    border-radius: 50px;
+    height: 588px;
+    margin-bottom: 130px;
+}
+
+.banner-second .img-banner-sec{
+    margin-right: 40px;
+    position: relative;
+}
+
+.banner-second .img-banner-sec img{
+    width: 95%;
+    position: absolute;
+    top: -70px;
+}
+
+.banner-second .img-banner-sec .purple{
+    width: 25px;
+    height: 25px;
+    background-color: var(--bg-circle-green);
+    border-radius: 50%;
+    position: absolute;
+    right: -400px;
+    top: 120px;
+}
+
+.banner-second .img-banner-sec .yellow{
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-circle-yellow);
+    border-radius: 50%;
+    position: absolute;
+    right: -500px;
+    bottom: 110px;
+}
+
+.banner-second .img-banner-sec .orange{
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-circle-orange);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    bottom: 110px;
+}
+
+/* carousel third */
+.carousel-experts{
+    margin-bottom: 130px;
+}
+
+.carousel-experts .carousel-third{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.carousel-experts .carousel-third .box-pro-images{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .img-big{
+    background-color: var(--bg-category);
+    border-radius: 15px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .img-big img{
+    width: 100%;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .imgs-small{
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .imgs-small img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description h2{
+    display: flex;
+    color: var(--color-h2);
+    font-weight: var(--fw-h2);
+    font-size: var(--fs-h2-pro);
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description .flex-des{
+    display: flex;
+    font-size: var(--fs-a-14);
+    margin-top: 10px;
+    color: var(--color-blur-h2);
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description .flex-des p{
+    margin-right: 5px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description .evaluate{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description .evaluate i{
+    color: var(--color-icons);
+}
+
+.carousel-experts .carousel-third 
+.box-pro-images .description .price p{
+    border: 2px solid var(--bd-price);
+    padding: 3px 8px;
+    border-radius: 10px;
+    color: var(--bd-price);
+    font-weight: var(--fw-a);
+    font-size: var(--fs-a);
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* carousel-department */
+
+.carousel-department{
+    margin-bottom: 130px;
+}
+
+.carousel-department .carousel-second .depart1 img{
+    background-color: var(--bg-depart1) !important;
+}
+ 
+.carousel-department .carousel-second .depart2 img{
+    background-color: var(--bg-depart2) !important;
+}
+
+.carousel-department .carousel-second .depart3 img{
+    background-color: var(--bg-depart3) !important;
+}
+
+.carousel-department .carousel-second .depart4 img{
+    background-color: var(--bg-depart4) !important;
+}
+
+.carousel-department .carousel-second .list-products
+.product-detail .info-depart{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.carousel-department .carousel-second .list-products
+.product-detail .info-depart .description p{
+    cursor: pointer;
+}
+
+.carousel-department .carousel-second .list-products
+.product-detail .info-depart .name-cate a{
+    text-decoration: none;
+    color: var(--text-color-a);
+    font-weight: var(--fw-p);
+    font-size: var(--fs-a-cate);
+}
+
+
+
+
+
+
+

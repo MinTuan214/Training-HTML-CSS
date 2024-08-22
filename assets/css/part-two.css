@@ -4,30 +4,34 @@
     gap: 20px;
 }
 
-.banner-first .box-text-content{
+.box-text-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 20px;
 }
 
-.banner-first .box-text-content .title-content{
+.box-text-content .title-content{
     font-size: var(--fs-h2);
     line-height: 1.2;
     padding-top: 60px;
 }
 
-.banner-first .box-text-content .description{
+.box-text-content .title-content h2{
+    font-weight: var(--fw-h2);
+}
+
+.box-text-content .description{
     padding-top: 30px;
     color: var(--color-blur-h2);
 }
 
-.banner-first .box-text-content .box-btns{
+.box-text-content .box-btns{
     padding-top: 40px;
     display: flex;
 }
 
-.banner-first .box-text-content .box-btns .btn{
+.box-text-content .box-btns .btn{
     border: 1px solid var(--bd-btn);
     padding: 15px 25px;
     border-radius: 50px;
@@ -37,17 +41,21 @@
     transition: all .1s ease-in-out;
 }
 
-.banner-first .box-text-content .box-btns .left{
-    background-color: var(--bg-hover-btn-primary);
+.box-text-content .box-btns .left{
+    background-color: var(--btn-primary);
     color: var(--text-btn);
     margin-right: 20px;
 }
 
-.banner-first .box-text-content .box-btns .right:hover{
+.box-text-content .box-btns .left:hover{
+    background-color: var(--bg-hover-btn-primary);
+}
+
+.box-text-content .box-btns .right:hover{
     background-color: var(--bg-hover);
 }
 
-.banner-first .box-banner img{
+.box-banner img{
     width: 100%;
 }
 
@@ -99,6 +107,7 @@
     color: var(--text-color-a14);
     font-weight: var(--fw-a);
     cursor: pointer;
+    position: relative;
 }
 
 #categories .box-categories .nav-categories .list-category li:hover{
@@ -171,7 +180,7 @@
 #categories .box-categories .box-categories-detail 
 .list-box-categories .category-detail .information h2{
     font-weight: var(--fw-h2);
-    font-size: var(--fs-h2);
+    font-size: var(--fs-h2-cate);
 }
 
 #categories .box-categories .box-categories-detail 
