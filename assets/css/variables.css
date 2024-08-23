@@ -1,4 +1,4 @@
-:root{
+:root {
     --fs-a: 15px;
     --fs-a-14: 14px;
     --fs-h2: 36px;
@@ -13,6 +13,9 @@
     --fs-h2-cate: 34px;
     --fs-a-cate: 17px;
     --fs-p-title: 18px;
+    --fs-title: 18px;
+    --fs-feedback: 20px;
+    --fs-user-feedback: 24px;
 
     --text-color-a: rgb(51 65 85);
     --text-btn: #fff;
@@ -27,13 +30,21 @@
     --color-step-blue: #3730a3;
     --color-step-yellow: #854d0e;
     --color-step-purple: #6b21a8;
+    --color-circle: #5b616e;
+    --color-load: #d1d4d9;
+    --color-hv-a: #0c4a6e;
+    --color-fb: #4676ed;
+    --color-ytb: #da0000;
+    --color-tele: #279ed8;
+    --color-twitter: #5a99ec;
+
     --btn-text: #fff;
     --btn-primary: #0f172a;
 
     --fw-h2: 600;
     --fw-a: 500;
     --fw-p: 600;
-    
+
     --bg-hover-btn-primary: #1b2338;
     --bg-hover: rgb(241 245 249);
     --bg-slider: #e3ffe6;
@@ -65,10 +76,13 @@
     --bg-circle-green: #43b97f;
     --bg-circle-yellow: #ffb951;
     --bg-circle-orange: #ff6650;
+    --bg-blog: #f7f7f9;
+    --bg-white: #fff;
+    --bg-dot: #d1d5db;
 
     --bd-price: #22c55e;
     --bd-checked: #333;
-    --bd-btn: #f3f4f6;
+    --bd-btn: #cbd5e1;
     --bd-hr: #e2e8f0;
     --bd-active: #0ea5e9;
 

@@ -1,0 +1,56 @@
+#footer{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+#footer .row{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 140px;
+    margin-bottom: 130px;
+}
+
+#footer .row .col ul li{
+    list-style: none;
+    line-height: 2.3;
+    font-size: var(--fs-a-14);
+    color: var(--text-color-a);
+}
+
+#footer .row .col ul .logo{
+    margin-bottom: 10px;
+}
+
+#footer .row .col ul li i{
+    margin-right: 5px;
+}
+
+#footer .row .col ul li i.fa-facebook{
+    color: var(--color-fb);
+}
+
+#footer .row .col ul li i.fa-youtube{
+    color: var(--color-ytb);
+}
+
+#footer .row .col ul li i.fa-telegram{
+    color: var(--color-tele);
+}
+
+#footer .row .col ul li i.fa-twitter{
+    color: var(--color-twitter);
+}
+
+#footer .row .col ul .title{
+    margin-bottom: 5px;
+    color: var(--color-h2);
+    font-weight: var(--fw-p);
+}
+#footer .row .col ul li a{
+    line-height: 2.7;
+    text-decoration: none;
+    color: var(--text-color-a14);
+}
+
+#footer .row .col ul li a:hover{
+    color: var(--text-color-p);
+}

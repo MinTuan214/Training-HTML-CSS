@@ -164,7 +164,7 @@
     font-size: var(--fs-title);
     color: var(--color-blur-h2);
     margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .box-products .nav-list-pro{
@@ -296,4 +296,48 @@ input:checked + .active{
 
 .box-products .choose-info .info-right i{
     margin: 0 7px;
+}
+
+.box-products .list-products .btn-load{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.box-products .list-products .btn-load .box{
+    background-color: var(--btn-primary);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.box-products .list-products .btn-load .box:hover{
+    background-color: var(--bg-hover-btn-primary);
+}
+
+.box-products .list-products .btn-load .box svg{
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+.box-products .list-products .btn-load .box a{
+    text-decoration: none;
+    color: var(--text-btn);
+    font-weight: var(--fw-a);
+}
+
+.box-products .list-products .btn-load .box svg circle{
+    color: var(--color-circle);
+}
+
+.box-products .list-products .btn-load .box .animate-spin{
+    color: var(--color-load);
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(1turn);
+    }
 }

@@ -170,6 +170,7 @@
 .carousel-products .box-carousel-product{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .carousel-products .box-carousel-product .box-title{
@@ -286,7 +287,7 @@
 
 .product-detail .display-image:hover .box{
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .product-detail .display-image 
@@ -325,6 +326,21 @@
     border-radius: 50%;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.03) 0px 4px 12px;
+    /* color: #ef4444; */
+}
+
+.product-detail .display-image .ani-hert input{
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    z-index: 999;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+input:checked + .heart{
     color: #ef4444;
 }
 
@@ -576,3 +592,8 @@ input:checked + .circle-green{
     width: 250px;
     color: var(--text-color-a14);
 }
+
+.ani-hert{
+    position: relative;
+}
+

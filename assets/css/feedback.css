@@ -1,0 +1,126 @@
+.feedback{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.feedback .title-feedback{
+    text-align: center;
+}
+
+.feedback .title-feedback h2{
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-h2);
+}
+
+.feedback .title-feedback p{
+    font-size: var(--fs-feedback);
+    color: var(--color-blur-h2);
+    margin-bottom: 50px;
+}
+
+.feedback .info-user-feedback{
+    max-width: 672px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.feedback .info-user-feedback .img-user-feedback{
+    margin-bottom: 50px;
+}
+
+.feedback .info-user-feedback .text-feedback{
+    font-size: var(--fs-user-feedback); 
+    width: 600px;
+    color: var(--text-color-a);
+    margin-bottom: 30px;
+}
+
+.feedback .info-user-feedback .name-user{
+    font-size: var(--fs-user-feedback);
+    color: var(--color-p);
+    font-weight: var(--fw-p);
+    margin-bottom: 15px;
+}
+
+.feedback .info-user-feedback .votes i{
+    color: var(--color-icons);
+    font-size: var(--fs-feedback);
+    margin-bottom: 40px;
+}
+
+.feedback .info-user-feedback .dots{
+    display: flex;
+
+}
+
+.feedback .info-user-feedback .dots .dot{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: var(--bg-dot);
+    margin: 0 5px;
+}
+
+.feedback .info-user-feedback .dots .active{
+    background-color: var(--bg-list-category);
+}
+
+.feedback .info-user-feedback .brackets img.left{
+    position: absolute;
+    top: 46%;
+    left: -60px;
+}
+
+.feedback .info-user-feedback .brackets img.right{
+    position: absolute;
+    top: 46%;
+    right: -60px;
+}
+
+.feedback .info-user-feedback .feedback2{
+    position: absolute;
+    left: -90px;
+    top: 30px;
+}
+
+.feedback .info-user-feedback .feedback4{
+    position: absolute;
+    left: -200px;
+    bottom: 120px;
+}
+
+.feedback .info-user-feedback .feedback3{
+    position: absolute;
+    right: -40px;
+    top: 40px;
+}
+
+.feedback .info-user-feedback .feedback5{
+    position: absolute;
+    right: -200px;
+    bottom: 100px;
+}
+.feedback .info-user-feedback .feedback6{
+    position: absolute;
+    right: 130px;
+    bottom: -40px;
+}
+
+.feedback .info-user-feedback .feedback7{
+    position: absolute;
+    left: 150px;
+    bottom: -60px;
+}
+
+.hr-footer{
+    width: 100%;
+    border: 1px solid var(--bd-hr);
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
