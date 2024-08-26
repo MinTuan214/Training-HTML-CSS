@@ -104,3 +104,36 @@
 .dot-slider .active{
     background-color: #333;
 }
+
+/* Responsive */
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    #slider{
+        height: auto;
+        padding: 0 15px;
+    }
+    #slider .row-slider{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-right img{
+        position: relative;
+        width: 75%;
+        margin-left: 160px;
+    }
+    #slider .row-slider .col-left .box-title-banner{
+        margin-top: 50px;
+    }
+
+    #slider .row-slider .col-left .box-title-banner .title-main{
+        font-size: 48px;
+    }
+    #slider .row-slider .col-left .purple{
+        display: none;
+    }
+    #slider .row-slider .col-left .orange{
+        width: 15px;
+        height: 15px;
+        bottom: -264px;
+    }
+}

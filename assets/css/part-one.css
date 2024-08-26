@@ -29,7 +29,7 @@
 }
 
 .carousel-info .box-title .text-blur{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     color: var(--color-blur-h2);
 }
 
@@ -597,3 +597,24 @@ input:checked + .circle-green{
     position: relative;
 }
 
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .carousel-products .box-carousel-product .box-icons-arrow{
+        align-items: end;
+    }
+
+    .carousel-second .list-products{
+        width: 1500px;
+    }
+
+    .carousel-second .list-products .product-detail{
+        width: 358px;
+    }
+
+    #box-steps{
+        flex-wrap: wrap;
+    }
+
+    .carousel-department .department{
+        width: 1002px;
+    }
+}

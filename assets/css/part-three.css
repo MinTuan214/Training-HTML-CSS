@@ -190,7 +190,23 @@
 }
 
 
-
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .carousel-experts .carousel-third{
+        width: 1530px;
+        gap: 22px;
+    }
+    .carousel-experts .carousel-third .box-pro-images .img-big img{
+        object-fit: contain;
+    }
+    .carousel-experts .carousel-third .box-pro-images .imgs-small{
+        justify-content: space-between;
+    }
+    .carousel-experts .carousel-third .box-pro-images .imgs-small img{
+        height: 112px;
+        width: 154px;
+        object-fit: cover;
+    }
+}
 
 
 

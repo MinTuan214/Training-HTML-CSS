@@ -241,3 +241,58 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .banner-first{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-text-content{
+        width: 410px;
+        margin: 0 auto;
+    }
+    .box-banner img{
+        width: 576px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .box-text-content .title-content h2{
+        font-size: 36px;
+    }
+    .box-text-content .title-content{
+        padding-top: 40px;
+    }
+    #categories .box-categories .box-categories-detail .list-box-categories{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #categories .box-categories .nav-categories{
+        width: auto;
+    }
+    #categories .box-categories .nav-categories .list-category .nav-left .btn-nav p{
+        padding: 10px 25px;
+    }
+    .banner-second{
+        display: flex !important;
+        flex-direction: column-reverse;
+        height: auto !important;
+    }
+    .banner-second .img-banner-sec img{
+        position: relative !important;
+        width: 576px !important;
+        top: 6px !important;
+    }
+    .banner-second .banner-three{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .banner-second .img-banner-sec .orange{
+        left: 650px !important;
+        top: 200px !important;
+        position: absolute !important;
+        width: 10px !important;
+        height: 10px !important;
+    }
+}

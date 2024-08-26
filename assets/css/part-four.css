@@ -341,3 +341,33 @@ input:checked + .active{
         transform: rotate(1turn);
     }
 }
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .banner-third{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 20px;
+    }
+    .banner-third .content-left{
+        width: 512px;
+    }
+    .banner-third .content-right img{
+        position: relative;
+        top: 26px;
+        width: 512px;
+    }
+    .box-products .choose-info{
+        display: none;
+    }
+    .box-products .nav-list-pro{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-products .nav-list-pro .nav-left{
+        margin-bottom: 25px;
+    }
+    .box-products .nav-list-pro .nav-right{
+        justify-content: center;
+    }
+}

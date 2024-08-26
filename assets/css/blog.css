@@ -153,7 +153,16 @@
     transition: all .2s ease-in-out;
 }
 
-
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .box-blog .blog{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box-blog .blog .flex-blog{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
