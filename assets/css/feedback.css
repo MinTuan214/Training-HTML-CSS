@@ -124,3 +124,30 @@
     margin-top: 200px;
     margin-bottom: 130px;
 }
+
+@media only screen and (max-width: 667px) {
+    .posi{
+        display: none;
+    }
+    .feedback{
+        padding: 0 20px;
+    }
+    .feedback .title-feedback h2{
+        font-size: var(--fs-rp-h2);
+    }
+    .feedback .title-feedback p{
+        font-size: var(--fs-rp-p-slider);
+    }
+    .feedback .info-user-feedback .text-feedback{
+        width: 343px;
+    }
+    .feedback .info-user-feedback .brackets img.right{
+        top: 37%;
+        right: 12px;
+    }
+    .feedback .info-user-feedback .brackets img.left{
+        top: 37%;
+        left: 12px;
+    }
+    
+}

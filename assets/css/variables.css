@@ -79,6 +79,7 @@
     --bg-blog: #f7f7f9;
     --bg-white: #fff;
     --bg-dot: #d1d5db;
+    --bg-search: #f8fafc;
 
     --bd-price: #22c55e;
     --bd-checked: #333;
@@ -91,4 +92,15 @@
     --choose-orange: #fb923c;
     --choose-blue: #38bdf8;
     --choose-green: #4ade80;
+
+    /* Responsive */
+    --width-tablet: 1024px;
+    --fs-rp-h2: 30px;
+    --fs-rp-h2-2: 36px;
+    --fs-rp-p-slider: 16px;
+    --fs-rp-btn: 14px;
+    --fs-h2-in-box: 20px;
+    --fs-a-in-box: 14px;
+    --fs-list-cate: 12px;
+    --fs-h2-pro: 18px;
 }

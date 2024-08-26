@@ -55,7 +55,7 @@
     color: var(--text-color-p);
 }
 
-@media only screen and (min-width: 740px) and (max-width: 1024px) {
+@media only screen and  (max-width: 1024px) {
     #footer{
         padding: 0 15px;
     }
@@ -74,13 +74,23 @@
     #footer .row .first ul li i{
         font-size: 20px;
     }
-    .logo{
+    #footer .logo{
         flex: 0;
     }
-    .logo svg{
+    #footer .logo svg{
         margin-right: 49px;
     }
     #footer .row .first span{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    #footer .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    #footer .row .first{
+        grid-column: span 2 !important;
     }
 }

@@ -577,8 +577,6 @@ input:checked + .circle-green{
    border-radius: 25px;
 }
 
-
-
 #box-steps .step .content-step .title-step{
     margin: 25px 0;
     border-radius: 25px;
@@ -597,7 +595,7 @@ input:checked + .circle-green{
     position: relative;
 }
 
-@media only screen and (min-width: 740px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .carousel-products .box-carousel-product .box-icons-arrow{
         align-items: end;
     }
@@ -613,8 +611,46 @@ input:checked + .circle-green{
     #box-steps{
         flex-wrap: wrap;
     }
-
     .carousel-department .department{
         width: 1002px;
+    }
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 667px) {
+    .carousel-info .box-title h2, .carousel-products .box-title h2{
+        font-size: var(--fs-rp-h2) !important;
+    }
+    .box-carousel-info, .carousel-products .box-carousel-product{
+        flex-direction: column;
+    }
+    .carousel-info .box-carousel-info .box-icons-arrow, .carousel-products .box-carousel-product .box-icons-arrow{
+        justify-content: end;
+    }
+    .title-box-children-right{
+        font-size: var(--fs-a-in-box);
+    }
+    .title-main-box-children-right{
+        font-size: var(--fs-h2-in-box);
+    }
+    .carousel-first .list-voucher .voucher-detail img{
+        width: 160px;
+    }
+    .carousel-first .list-voucher .voucher-detail .box-children-right .btn-box-children-right{
+        padding: 10px 15px;
+    }
+    .carousel-first .list-voucher .voucher-detail{
+        width: 370px;
+    }
+    .carousel-second .list-products{
+        width: 1396.15px;
+    }
+    .carousel-second .list-products .product-detail{
+        width: 259px;
+    }
+    .carousel-second .list-products{
+        justify-content: start;
+        gap: 10px;
     }
 }

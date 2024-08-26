@@ -107,7 +107,7 @@
 
 /* Responsive */
 /* Tablet */
-@media only screen and (min-width: 740px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     #slider{
         height: auto;
         padding: 0 15px;
